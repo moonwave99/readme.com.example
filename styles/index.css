@@ -5,9 +5,9 @@
 :root {
   --accent-color: #3a0ca3;
   --column-width: 1200px;
-  --hero-width: 1400px;
-  --hero-height: 40vh;
   --hero-img-width: 300px;
+  --hamburger-size: 2rem;
+  --slice-height: 4px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -217,14 +217,12 @@ footer {
   }
 
   .hamburger {
-    --hambuger-size: 2rem;
-    --slice-height: 4px;
     z-index: 2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: var(--hambuger-size);
-    height: var(--hambuger-size);
+    width: var(--hamburger-size);
+    height: var(--hamburger-size);
     position: fixed;
     top: 1rem;
     right: 1rem;
@@ -234,7 +232,7 @@ footer {
     height: var(--slice-height);
     background-color: black;
     width: 100%;
-    border-radius: calc(var(--hambuger-size) / 2);
+    border-radius: calc(var(--hamburger-size) / 2);
     transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
   }
 
@@ -260,14 +258,14 @@ footer {
 
   body:has(.checkbox:checked) .hamburger :first-child {
     transform: translateY(
-        calc((var(--hambuger-size) - var(--slice-height)) / 2)
+        calc((var(--hamburger-size) - var(--slice-height)) / 2)
       )
       rotate(45deg);
   }
 
   body:has(.checkbox:checked) .hamburger :last-child {
     transform: translateY(
-        calc((var(--hambuger-size) - var(--slice-height)) / -2)
+        calc((var(--hamburger-size) - var(--slice-height)) / -2)
       )
       rotate(-45deg);
   }

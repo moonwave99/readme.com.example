@@ -1,4 +1,4 @@
-import './styles.css';
+import './styles/index.css';
 
 const menuToggler = document.getElementById('menu-toggle');
 
