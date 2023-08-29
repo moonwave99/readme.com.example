@@ -106,11 +106,22 @@ footer {
   display: flex;
   align-items: center;
   gap: 1rem;
-  height: 4rem;
+  line-height: 4rem;
 }
 
 footer :last-child {
   margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    line-height: 1.5rem;
+  }
+
+  footer :last-child {
+     margin-right: auto;
+  }
 }
 
 .top {
@@ -150,6 +161,7 @@ footer :last-child {
 .top img {
   max-width: 100%;
   border-radius: 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 @media screen and (max-width: 1200px) {
