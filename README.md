@@ -2,7 +2,7 @@
 title: Jane Doe's Website
 description: This is my personal website
 links:
-  github: [https://github.com/jane-doe](https://github.com/moonwave99/readme.com.example)
+  github: https://github.com/moonwave99/readme.com.example
 ---
 
 # Hey, it's Jane here! <br> I am a web developer.
