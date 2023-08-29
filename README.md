@@ -32,6 +32,7 @@ I am good at:
 - thing one
 - thing two
 - thing three
+
 ### Education
 
 I am also good at:
@@ -49,6 +50,7 @@ I offer:
 - service one
 - service two
 - service three
+- service four
 
 ---
 
