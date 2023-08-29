@@ -1,0 +1,17 @@
+{
+  "name": "readme.com-example",
+  "version": "0.0.1",
+  "description": "readme.com example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "html": "npx readme",
+    "build": "npm run html && vite build",
+    "dev": "npx vite"
+  },
+  "devDependencies": {
+    "readme.com": "^0.0.1",
+    "vite": "^4.4.9",
+    "vite-plugin-watch": "^0.2.0"
+  }
+}
