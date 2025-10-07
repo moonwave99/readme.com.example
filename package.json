@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "html": "npx readme --templatePath templates",
+    "html": "npx readme.com --templatePath templates",
     "build": "npm run html && vite build",
     "dev": "npx vite"
   },
