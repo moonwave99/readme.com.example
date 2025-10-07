@@ -5,12 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "html": "npx readme.com --templatePath templates",
-    "build": "npm run html && vite build",
-    "dev": "npx vite"
+    "build": "rm -rf dist && npx readme.com --templatePath templates"
   },
-  "devDependencies": {
-    "vite": "^4.4.9",
-    "vite-plugin-watch": "^0.2.0"
+  "dependencies": {
+    "readme.com": "^0.0.5"
   }
 }
